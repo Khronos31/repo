@@ -1,0 +1,189 @@
+Package: ca-certificates
+Priority: optional
+Section: Utilities
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 0-20200624-1
+Replaces: org.thebigboss.cacerts
+Provides: org.thebigboss.cacerts
+Conflicts: org.thebigboss.cacerts
+Filename: ../debs/unix-common/ca-certificates_0-20200624-1_iphoneos-arm.deb
+Size: 127572
+MD5sum: 3d8df8570ba6844768921b559e32b62d
+SHA1: 0dcb747d898b8a1d60946dbf16e08faa36bc7068
+SHA256: 4ee37aa54453da65d66af87a7715ebd87d18f55de6b793e897cbc4fb69844f6c
+Description: Common CA certificates
+Name: CA Certs
+Homepage: https://curl.haxx.se/docs/caextract.html
+Tag: purpose::console
+
+Package: com.khronos.curl
+Priority: optional
+Section: Networking
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 7.71.1-2
+Depends: firmware (<<11.0), ca-certificates, com.khronos.libssh2, com.khronos.openssl, com.khronos.libnghttp2, com.khronos.libidn2
+Filename: ../debs/unix32/com.khronos.curl_7.71.1-2_iphoneos-arm.deb
+Size: 662704
+MD5sum: d857799d05956b575f11c404c639f664
+SHA1: 220148355ca7feca287e7e1754a3e20911ac6465
+SHA256: eda16d4b1a301cca9ec13917f637c3b9b29f4e9c0c1097bde8022871635a9be7
+Description: Get a file from an HTTP, HTTPS or FTP server
+Name: cURL
+Homepage: https://curl.haxx.se/
+Tag: purpose::console
+
+Package: com.khronos.gettext
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 0.20.2-1
+Depends: firmware (<<11.0)
+Filename: ../debs/unix32/com.khronos.gettext_0.20.2-1_iphoneos-arm.deb
+Size: 4309152
+MD5sum: 4421fd1a2b2bfde955cb5f2ebeaf3daa
+SHA1: c7bef8ded37c03ce4e3a4915ade2ca32db81ebfc
+SHA256: 2308d9daa0f5689610476f6a826ee6417b8eb121ead787045ea2a7d284c2d0e9
+Description: GNU internationalization (i18n) and localization (l10n) library
+Name: gettext
+Homepage: https://www.gnu.org/software/gettext/
+Tag: purpose::library
+
+Package: com.khronos.libidn2
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 2.3.0-2
+Depends: firmware (<<11.0), com.khronos.libunistring, com.khronos.gettext
+Filename: ../debs/unix32/com.khronos.libidn2_2.3.0-2_iphoneos-arm.deb
+Size: 180760
+MD5sum: 322d40d380b5990af3cf6d7e2d7a675b
+SHA1: de7c1970394e4b4f9f5f2ab794c3982461f6b6a9
+SHA256: 886cfafe387d0cfcc09a62599043a08797729e8fc50ec2709f22232d0df2973e
+Description: International domain name library (IDNA2008, Punycode and TR46)
+Name: libidn2
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Tag: purpose::library
+
+Package: com.khronos.libnghttp2
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 1.41.0-2
+Depends: firmware (<<11.0)
+Filename: ../debs/unix32/com.khronos.libnghttp2_1.41.0-2_iphoneos-arm.deb
+Size: 108088
+MD5sum: 879afdea5daa48429552c04d93956a7a
+SHA1: 28d09209e71a34ec6374f512ff4dacde93ccb5fb
+SHA256: b38027bf7622c7e45288cdb8829734fa6a8d9423d12a29c90275839bb314c0f9
+Description: HTTP/2 C Library
+Name: libnghttp2
+Homepage: https://nghttp2.org/
+Tag: purpose::library
+
+Package: com.khronos.libssh2
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 1.9.0-2
+Depends: firmware (<<11.0), com.khronos.openssl
+Filename: ../debs/unix32/com.khronos.libssh2_1.9.0-2_iphoneos-arm.deb
+Size: 165616
+MD5sum: 94f472a6c0b5e04995f8b7328786c72c
+SHA1: 653d58b90382053ac43e3fd0903f183b7bc2ce63
+SHA256: fec535da27a8250817a96d8b35b322ecf1e0ba2f9e379a64b6f7d3776f36ff0a
+Description: C library implementing the SSH2 protocol
+Name: libssh2
+Homepage: https://libssh2.org/
+Tag: purpose::library
+
+Package: com.khronos.libunistring
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 0.9.10-1
+Depends: firmware (<<11.0)
+Filename: ../debs/unix32/com.khronos.libunistring_0.9.10-1_iphoneos-arm.deb
+Size: 792206
+MD5sum: 6852f150fc35bca09f16602906953ce8
+SHA1: 5d9e13f2aea56bb6928db8a5a5e4241ea23bc130
+SHA256: 03d18c4c1ad9c644c55eec7530d59b413eea52fcbac16d6af1365e57d9b6154c
+Description: C string library for manipulating Unicode strings
+Name: libunistring
+Homepage: https://www.gnu.org/software/libunistring/
+Tag: purpose::library
+
+Package: com.khronos.ncurses
+Priority: optional
+Section: System
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 6.2-2
+Depends: firmware (<<11.0)
+Filename: ../debs/unix32/com.khronos.ncurses_6.2-2_iphoneos-arm.deb
+Size: 955144
+MD5sum: 9cd27774f2474a07ed2314a88398300e
+SHA1: 0225dba7e9fb44f45e8f24570a04c87ff16cfa23
+SHA256: daadd82d093e67e88e407b3c955de012430f02182a8b67be3cac28d51a889e6b
+Description: Text-based UI library
+Name: New Curses
+Homepage: https://invisible-island.net/ncurses/ncurses.html
+Tag: purpose::library
+
+Package: com.khronos.openssl
+Priority: optional
+Section: Security
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 1.1.1g-5
+Depends: firmware (<<11.0), ca-certificates
+Filename: ../debs/unix32/com.khronos.openssl_1.1.1g-5_iphoneos-arm.deb
+Size: 2678350
+MD5sum: 312fc3f79ccb6688b39bd5d75036af25
+SHA1: 196858c975c732999c449e367ae5ad71c8f01512
+SHA256: da29f7d965cc76ff45fdb0e4e359e9080507ae9745c317628ab3d37d4d466685
+Description: Cryptograpy and SSL/TLS Toolkit
+Name: OpenSSL
+Homepage: https://www.openssl.org
+Tag: purpose::library
+
+Package: com.khronos.pkg-config
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 0.29.2-1
+Depends: firmware (<<11.0)
+Filename: ../debs/unix32/com.khronos.pkg-config_0.29.2-1_iphoneos-arm.deb
+Size: 225008
+MD5sum: 45b8e5c35dcc1ed6f4534fe43cc42404
+SHA1: be41b880c618d0c86382f012cce451e69769a302
+SHA256: ecc9bed44c27f60a740d17f02bd0ef9a4d1b3fd55b78bcb31dc390db781b58cc
+Description: Manage compile and link flags for libraries
+Name: pkg-config
+Homepage: https://freedesktop.org/wiki/Software/pkg-config/
+Tag: purpose::console
+
+Package: com.khronos.rust
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Architecture: iphoneos-arm
+Version: 1.44.1-1
+Depends: firmware (<<11.0), com.khronos.openssl, com.khronos.curl
+Filename: ../debs/unix32/com.khronos.rust_1.44.1-1_iphoneos-arm.deb
+Size: 97766250
+MD5sum: 8a07a69bea1df39a6dde22f7506e6ccf
+SHA1: 7ba187927e36ace0a7c55c05a561ea2660fc4b7b
+SHA256: 981b1cc43d4cff655aecea87e71b2f192c35e2ca8d74e51ae2a5eb3df20a3dc0
+Description: Safe, concurrent, practical language
+Name: Rust
+Homepage: https://www.rust-lang.org/
+Tag: purpose::console
+
