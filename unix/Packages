@@ -1,0 +1,200 @@
+Package: ca-certificates
+Architecture: iphoneos-arm
+Version: 0-20200624-1
+Priority: optional
+Section: Utilities
+Maintainer: Khronos
+Provides: org.thebigboss.cacerts
+Conflicts: org.thebigboss.cacerts
+Replaces: org.thebigboss.cacerts
+Filename: ../debs/unix-common/ca-certificates_0-20200624-1_iphoneos-arm.deb
+Size: 127572
+MD5sum: 3d8df8570ba6844768921b559e32b62d
+SHA1: 0dcb747d898b8a1d60946dbf16e08faa36bc7068
+SHA256: 4ee37aa54453da65d66af87a7715ebd87d18f55de6b793e897cbc4fb69844f6c
+SHA512: 2f9e36efb2a8874a3ebf6effa718affaaeb585530e1c4cc35df58ef0f32c3212c852608ac4c5cd096b525357bd571a9915db2bf142f656adc79079a6802ddcab
+Homepage: https://curl.haxx.se/docs/caextract.html
+Description: Common CA certificates
+Tag: purpose::console
+Name: CA Certs
+
+Package: com.khronos.curl
+Architecture: iphoneos-arm
+Version: 7.71.1-2
+Priority: optional
+Section: Networking
+Maintainer: Khronos
+Depends: firmware (>=11.0), ca-certificates, com.khronos.libssh2, com.khronos.openssl, com.khronos.libnghttp2, com.khronos.libidn2
+Filename: ../debs/unix64/com.khronos.curl_7.71.1-2_iphoneos-arm.deb
+Size: 679072
+MD5sum: c7f5f74d3505cea8f192a7de81f3e217
+SHA1: 2a0b86ebb93d51f57fbff36b74b2f99b176acfb2
+SHA256: c7d59b916eebcbf47ea7b04c61470456b5e2d000b489e1e6b301fa58c8be60d1
+SHA512: 60f8ca71245b93900069946a3d2b376f965c6fb2f0e420b403338d92ec90c3e92bb5028162ab29d81034b17a21d961dc4db324699e54ef763e3c94b5a0af5c12
+Homepage: https://curl.haxx.se/
+Description: Get a file from an HTTP, HTTPS or FTP server
+Tag: purpose::console
+Name: cURL
+
+Package: com.khronos.gettext
+Architecture: iphoneos-arm
+Version: 0.20.2-1
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Depends: firmware (>=11.0)
+Filename: ../debs/unix64/com.khronos.gettext_0.20.2-1_iphoneos-arm.deb
+Size: 4458934
+MD5sum: 7bf6e09dab3052063779eefa8e53e0ba
+SHA1: ba789abbc563929d6f92e9c882c09fee62b5a924
+SHA256: 5172fdc0c70a5363852478b866289d73fdeb344201977cf47d3eb97a09326791
+SHA512: 98672fe36340577e587e0a8e30a7c4933319d522afd494c9167bbb249f93914bad77633e5f311d1b09c99245093ed5baea30a79b94a4385f92e2bf31d7c02baa
+Homepage: https://www.gnu.org/software/gettext/
+Description: GNU internationalization (i18n) and localization (l10n) library
+Tag: purpose::library
+Name: gettext
+
+Package: com.khronos.libidn2
+Architecture: iphoneos-arm
+Version: 2.3.0-2
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Depends: firmware (>=11.0), com.khronos.libunistring, com.khronos.gettext
+Filename: ../debs/unix64/com.khronos.libidn2_2.3.0-2_iphoneos-arm.deb
+Size: 188174
+MD5sum: 4c77e38478888763abee841d43a01a2d
+SHA1: 1f3317297291139bedd905909f121c03e0e8007b
+SHA256: 5b7e4321c149fce963122b854444ed5766e51570137d41594f0dcd132cc2bdc8
+SHA512: ddfe95e859e2f01a6c7263a22fafbdd46dce0dc596761a565db5fd9ca222014338aac9ef0317814f39b6e29a59388ba4204392c6e2b0b484f96a45234151e1c0
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: International domain name library (IDNA2008, Punycode and TR46)
+Tag: purpose::library
+Name: libidn2
+
+Package: com.khronos.libnghttp2
+Architecture: iphoneos-arm
+Version: 1.41.0-2
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Depends: firmware (>=11.0)
+Filename: ../debs/unix64/com.khronos.libnghttp2_1.41.0-2_iphoneos-arm.deb
+Size: 117568
+MD5sum: 47590c91f7330ed24d1cf658a5fa2e11
+SHA1: 99a26b9173d0bbf512911ae77be092f563cbde01
+SHA256: 161cc303315ba01b61cd9e7efd9e0432e2cbb10a32263b3b2e1235641561d40f
+SHA512: 8ca97445e23451e857b2af14d56e4b68d04bd9ef534f2c06ea041ea9928655630c86ad43cd43f9563025053b02e44c7ef346fe582a20bdca5e756992113b8430
+Homepage: https://nghttp2.org/
+Description: HTTP/2 C Library
+Tag: purpose::library
+Name: libnghttp2
+
+Package: com.khronos.libssh2
+Architecture: iphoneos-arm
+Version: 1.9.0-2
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Depends: firmware (>=11.0), com.khronos.openssl
+Filename: ../debs/unix64/com.khronos.libssh2_1.9.0-2_iphoneos-arm.deb
+Size: 176640
+MD5sum: e2f58655b285aad03a374443dc6d5abc
+SHA1: 69b57fafc05a3195d20950bc2959439e1c715969
+SHA256: 801a2bb773de770766dd69a95c1a6b48a2552b8db6e90371a972254dec12789d
+SHA512: 42648ade308d5d7031dfaf60eb4add03ac3e0ee3c62fec30228be33fe690ab2b5a911ab8b3c8008067a75fe15970624f7de6b73dfcf7a10d8e2071bb708021dc
+Homepage: https://libssh2.org/
+Description: C library implementing the SSH2 protocol
+Tag: purpose::library
+Name: libssh2
+
+Package: com.khronos.libunistring
+Architecture: iphoneos-arm
+Version: 0.9.10-1
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Depends: firmware (>=11.0)
+Filename: ../debs/unix64/com.khronos.libunistring_0.9.10-1_iphoneos-arm.deb
+Size: 812390
+MD5sum: f1aac3aed6807be0b01288217b721006
+SHA1: f7badc82361ee00de3033466705c0498f5576a13
+SHA256: 8d2efb870d1ef62209b9e4d7116d49ddef71190f3c63a1c10a9ecb1334b90a4f
+SHA512: 4095247452802805c76e3e06cae4aebe8d749c3a8db5e99b1961aa1480946cd7a746a663d91c4733cee8bc3a30d5e5bccfdd465cca9c6ecf7849c862f36a0e92
+Homepage: https://www.gnu.org/software/libunistring/
+Description: C string library for manipulating Unicode strings
+Tag: purpose::library
+Name: libunistring
+
+Package: com.khronos.ncurses
+Architecture: iphoneos-arm
+Version: 6.2-2
+Priority: optional
+Section: System
+Maintainer: Khronos
+Depends: firmware (>=11.0)
+Filename: ../debs/unix64/com.khronos.ncurses_6.2-2_iphoneos-arm.deb
+Size: 1026550
+MD5sum: 0f3e57624a3ac72a86c2b8efd1ef9931
+SHA1: f1fc7815226ea8df41e76e5c76500640f10f367e
+SHA256: 57d443b15268b98f22d3c2731ca4348247aedf8c46c974f12f0763e19886a887
+SHA512: b6390b4d9ae97df55951b759b4a5db589db18bbb2c25e29b3fb6216e6ec70e4f90c7939b0e3bce614a9165bac222c285a2e8b6963a0b6ca94941b3b4c783f210
+Homepage: https://invisible-island.net/ncurses/ncurses.html
+Description: Text-based UI library
+Tag: purpose::library
+Name: New Curses
+
+Package: com.khronos.openssl
+Architecture: iphoneos-arm
+Version: 1.1.1g-5
+Priority: optional
+Section: Security
+Maintainer: Khronos
+Depends: firmware (>=11.0), ca-certificates
+Filename: ../debs/unix64/com.khronos.openssl_1.1.1g-5_iphoneos-arm.deb
+Size: 2863046
+MD5sum: c83fdd70b9cc68bf6892a338f129dca4
+SHA1: f52fbbc32b5557f1a0b0dc10e05c0e85e370e4ce
+SHA256: 98eb1ad8b6b59d841ae4b84472b01d8f2598693650582ccb0345f6423427abfe
+SHA512: 0f851f2753faed35fea187fa439f7c67faf8ad2cfc03c8428362b11609a6733660ff1e8d49952bdb40272052802d4f83c15749f06467253775393e4bc5c370f1
+Homepage: https://www.openssl.org
+Description: Cryptograpy and SSL/TLS Toolkit
+Tag: purpose::library
+Name: OpenSSL
+
+Package: com.khronos.pkg-config
+Architecture: iphoneos-arm
+Version: 0.29.2-1
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Depends: firmware (>=11.0)
+Filename: ../debs/unix64/com.khronos.pkg-config_0.29.2-1_iphoneos-arm.deb
+Size: 256238
+MD5sum: 6916c0490a061898c71dced2554097b9
+SHA1: 5e79ca2681292466c1c5b75c3577963e31bc813a
+SHA256: 72adaf995c29cc70dfb1188fe169abff07dedb6b10b9d4b15aaed19c93abd942
+SHA512: 87745ce821629f7ad4a124cee787623c31cb4077f53bae210ae2c2c5c5d94fea08b469d2d3617d8fe96c3afe5b28c03f5dedb7364ce939133a6209fff3dacf9a
+Homepage: https://freedesktop.org/wiki/Software/pkg-config/
+Description: Manage compile and link flags for libraries
+Tag: purpose::console
+Name: pkg-config
+
+Package: com.khronos.rust
+Architecture: iphoneos-arm
+Version: 1.44.1-1
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Depends: firmware (>=11.0), com.khronos.openssl, com.khronos.curl
+Filename: ../debs/unix64/com.khronos.rust_1.44.1-1_iphoneos-arm.deb
+Size: 88222370
+MD5sum: 6ae048924f8d1792f6d8fc47abec0e0f
+SHA1: aab87422bda4bcbfa5771df4ec1c144816fb9227
+SHA256: e3437bd5345373e22f72009240e7972122c7bb949ca84ebc72671dc5cbd60178
+SHA512: 9d4ffad72bae7338b5962224dde60b5e9c79fd74dc98caa21a8b4e6fb70dc5292525085c520e0da946f5b248c2ec1b0b0897a563e81c115d996f5c2336e7946c
+Homepage: https://www.rust-lang.org/
+Description: Safe, concurrent, practical language
+Tag: purpose::console
+Name: Rust
+
