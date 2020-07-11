@@ -54,6 +54,24 @@ Description: GNU internationalization (i18n) and localization (l10n) library
 Tag: purpose::library
 Name: gettext
 
+Package: com.khronos.go
+Architecture: iphoneos-arm
+Version: 1.14.4-2
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Depends: firmware (>=11.0)
+Filename: ../debs/unix64/com.khronos.go_1.14.4-2_iphoneos-arm-2.deb
+Size: 65582760
+MD5sum: 3475de673389822fb1db751548d6244b
+SHA1: dcc9222376fedb664ee3de8248c7da2ee75d9176
+SHA256: 097a2f07064724e9f1eebf12488ee70442cb708ea936c5a25ec3e89e37c76e7e
+SHA512: 72c4cc3b98164f9a0309e6d7db1e14bb782512e5e3ca8844123725ef7a90557e7cab4a194e4eda0f248a12576f9597f0ff530668035dacfc73af4978b24a472f
+Homepage: https://golang.org
+Description: Open source programming language to build simple/reliable/efficient software
+Tag: purpose::console
+Name: Go
+
 Package: com.khronos.libidn2
 Architecture: iphoneos-arm
 Version: 2.3.0-2
@@ -143,6 +161,24 @@ Homepage: https://invisible-island.net/ncurses/ncurses.html
 Description: Text-based UI library
 Tag: purpose::library
 Name: New Curses
+
+Package: com.khronos.nim
+Architecture: iphoneos-arm
+Version: 1.2.4-2
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Depends: firmware (>=11.0)
+Filename: ../debs/unix64/com.khronos.nim_1.2.4-2_iphoneos-arm-2.deb
+Size: 5237872
+MD5sum: 2bab5156293dc8be551cabcdb399facd
+SHA1: 0f0164095b08d3e60624feaeca5758040628ec34
+SHA256: 5de9bab8014dffa98430ae669e3651f9957aa2f8a3222d35eb1fd60ab969eaf2
+SHA512: e3e6e7c45564acf6aa9a539aa421337a8f4ba9d8cd20279699c82bd08ae17605b0a50de98ce89d5cce37eab1098db7fc573b14480292f09169636d98164337a7
+Homepage: https://nim-lang.org/
+Description: Statically typed compiled systems programming language
+Tag: purpose::console
+Name: Nim
 
 Package: com.khronos.openssl
 Architecture: iphoneos-arm
